@@ -3,4 +3,4 @@
 
 <a href="mods.html">Mods I've Made</a>
 
-<a href="about me.html">A little bit more about me</a>
+<a href="things i do.html">Other things I do</a>
