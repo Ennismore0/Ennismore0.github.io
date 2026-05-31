@@ -12,3 +12,19 @@
 <br>
 <br>
 <a href="README.md">Home</a>
+
+<body>
+    <script>
+        // Create a broadcast channel (same name across tabs)
+        const channel = new BroadcastChannel('console_broadcast');
+
+        // Listen for messages from other tabs
+        channel.onmessage = (event) => {
+            console.log("Received from another tab:", event.data);
+        };
+
+        // Automatically send the broadcast message
+        channel.postMessage("Navigation.htmlt");
+        console.log("Sent from this tab: example broadcast");
+    </script>
+</body>
