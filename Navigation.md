@@ -1,4 +1,3 @@
-<title>Ennismore0 | Navigation</title>
 <h2>Navigation</h2>
 
 <a href="Mods/Mods.md">Mods I've Made</a>
